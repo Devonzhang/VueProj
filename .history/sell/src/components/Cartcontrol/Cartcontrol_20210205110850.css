@@ -1,0 +1,15 @@
+.cartcontrol {
+    font-size: 0;
+}
+
+.cartcontrol .cart-decrease {
+    display: inline-block;
+}
+
+.cartcontrol .cart-count {
+    display: inline-block;
+}
+
+.cartcontrol .cart-add {
+    display: inline-block;
+}

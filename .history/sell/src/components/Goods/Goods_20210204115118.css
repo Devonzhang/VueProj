@@ -1,0 +1,16 @@
+.goods {
+    display: flex;
+    /* 通过该方式确定高度 */
+    position: absolute;
+    top: 190px;
+    bottom: 51px;
+    width: 100;
+}
+
+
+/*
+flex: flex-grow | flex-shrink | flex-basis */
+
+.goods .menu-wrapper {}
+
+.goods .foods-wrapper {}

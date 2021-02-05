@@ -1,0 +1,49 @@
+    .header {
+        height: 160px;
+        padding-top: 20px;
+    }
+    /* 顶部通栏 */
+    
+    .header .top-wrapper {
+        position: relative;
+    }
+    
+    .header .top-wrapper .back-wrapper {
+        width: 50px;
+        height: 31px;
+        background: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        line-height: 31px;
+    }
+    
+    .header .top-wrapper .back-wrapper span {
+        display: inline-block;
+        color: white;
+    }
+    
+    .header .top-wrapper .search-wrapper {
+        width: 100%;
+        height: 31px;
+        background: purple;
+        padding: 0, 104px, 0, 50px;
+        /* 设置盒子从边框开始计算 */
+        box-sizing: border-box;
+    }
+    
+    .header .top-wrapper .search-wrapper .search-icon {}
+    
+    .header .top-wrapper .search-wrapper .search-bar {
+        width: 100%;
+    }
+    
+    .header .top-wrapper .more-wrapper {
+        width: 104px;
+        height: 31px;
+        background: blue;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }

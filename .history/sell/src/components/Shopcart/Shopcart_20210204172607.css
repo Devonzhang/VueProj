@@ -1,0 +1,8 @@
+.shopcart {
+    width: 100%;
+    height: 51px;
+    background: #514f4f;
+    position: fix;
+    left: 0;
+    bottom: 0;
+}
