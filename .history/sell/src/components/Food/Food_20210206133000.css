@@ -186,26 +186,10 @@
 
 .food .food-wrapper .rating-wrapper .comment-item .comment-main {
     flex: 1;
-    margin-top: 6px;
 }
 
-.food .food-wrapper .rating-wrapper .comment-item .comment-main .user {
-    width: 50%;
-    float: left;
-    font-size: 11px;
-    color: #333333;
-}
+.food .food-wrapper .rating-wrapper .comment-item .comment-main .user {}
 
-.food .food-wrapper .rating-wrapper .comment-item .comment-main .time {
-    width: 50%;
-    float: right;
-    text-align: right;
-    font-size: 10px;
-    color: #666666;
-}
+.food .food-wrapper .rating-wrapper .comment-item .comment-main .time {}
 
-.food .food-wrapper .rating-wrapper .comment-item .comment-main .content {
-    margin-top: 17px;
-    font-size: 13px;
-    line-height: 19px;
-}
+.food .food-wrapper .rating-wrapper .comment-item .comment-main .content {}

@@ -49,22 +49,11 @@
           </div>
           <ul class="rating-content" v-if="food.rating">
             <li v-for="comment in food.rating.comment_list" class="rating-comment comment-item">
-              <div class="comment-header">
-                <img :src="comment.user_icon" v-if="comment.user_icon">
-                <img src="./anonymity.png" v-if="!comment.user_icon">
+              <div class="comment-head">
+                <img :src="food.rating.comment_list." alt="">
 
               </div>
-              <div class="comment-main">
-                <div class="user">
-                  {{comment.user_name}}
-                </div>
-                <div class="time">
-                  {{comment.comment_time}}
-                </div>
-                <div class="content">
-                  {{comment.comment_content}}
-                </div>
-              </div>
+              <div class="comment-main"></div>
             </li>
 
           </ul>

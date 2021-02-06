@@ -26,49 +26,6 @@
 
           </div>
         </div>
-        <Split></Split>
-        <div class="rating-wrapper">
-          <div class="rating-title">
-            <div class="like-ratio" v-if="food.rating">
-              <span class="title">{{food.rating.title}}</span>
-              <span class="ratio">
-                (
-                {{food.rating.like_ratio_desc}}
-                <i>{{food.rating.like_ratio}}</i>
-                )
-              </span>
-
-            </div>
-            <div class="snd-title" v-if="food.rating">
-              <span class="text">
-                {{food.rating.snd_title}}
-              </span>
-              <span class="icon icon-keyboard_arrow_right"></span>
-            </div>
-
-          </div>
-          <ul class="rating-content" v-if="food.rating">
-            <li v-for="comment in food.rating.comment_list" class="rating-comment comment-item">
-              <div class="comment-header">
-                <img :src="comment.user_icon" v-if="comment.user_icon">
-                <img src="./anonymity.png" v-if="!comment.user_icon">
-
-              </div>
-              <div class="comment-main">
-                <div class="user">
-                  {{comment.user_name}}
-                </div>
-                <div class="time">
-                  {{comment.comment_time}}
-                </div>
-                <div class="content">
-                  {{comment.comment_content}}
-                </div>
-              </div>
-            </li>
-
-          </ul>
-        </div>
       </div>
 
     </div>
@@ -83,9 +40,6 @@ import Cartcontrol from 'components/Cartcontrol/Cartcontrol';
 import Vue from 'vue';
 // 导入BScroll
 import BScroll from 'better-scroll';
-// 导入Split
-import Split from 'components/Split/Split';
-
   export default {
     data(){
       return {
@@ -102,15 +56,7 @@ import Split from 'components/Split/Split';
         // 父组件是可以调用子组件方法的
         this.showFlag = true;
         // BScroll初始化
-        this.$nextTick( () =>{
-          if(!this.scroll){
-            this.scroll = new BScroll(this.$refs.foodView,{
-              click : true
-            });
-          }else{
-            this.scroll.refresh();
-          }
-        });
+        this.$nextTick(function () {});
       },
       closeView(){
         this.showFlag = false;
@@ -123,9 +69,7 @@ import Split from 'components/Split/Split';
     },
     components:{
       Cartcontrol,
-      BScroll,
-      Split
-
+      BScroll
     }
   }
 </script>

@@ -1,0 +1,17 @@
+.food {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 51px;
+    background: white;
+    width: 100%;
+    z-index: 90;
+}
+
+.detail-enter-active .detail-leave-active {
+    transition: opacity .5s;
+}
+
+.detail-enter .detail-leave-to {
+    opacity: 0;
+}
