@@ -1,0 +1,17 @@
+.seller {
+    position: absolute;
+    left: 0;
+    top: 191px;
+    bottom: 0;
+    width: 100%;
+}
+
+.seller .seller-wrapper {}
+
+.seller .seller-wrapper .seller-view {}
+
+.seller .seller-wrapper .seller-view .address-wrapper {}
+
+.seller .seller-wrapper .seller-view .pic-wrapper {}
+
+.seller .seller-wrapper .seller-view .safety-wrapper {}

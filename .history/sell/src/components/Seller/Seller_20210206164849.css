@@ -1,0 +1,30 @@
+.seller {
+    position: absolute;
+    left: 0;
+    top: 191px;
+    bottom: 0;
+    width: 100%;
+}
+
+.seller .seller-wrapper {}
+
+.seller .seller-wrapper .seller-view {
+    padding-left: 15px;
+}
+
+.seller .seller-wrapper .seller-view .address-wrapper {
+    padding: 16px 0;
+    display: flex;
+}
+
+.seller .seller-wrapper .seller-view .address-wrapper .address-left {
+    flex: 1;
+}
+
+.seller .seller-wrapper .seller-view .address-wrapper .address-right {
+    flex: 0 0 60px;
+}
+
+.seller .seller-wrapper .seller-view .pic-wrapper {}
+
+.seller .seller-wrapper .seller-view .safety-wrapper {}

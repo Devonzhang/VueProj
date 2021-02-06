@@ -1,0 +1,8 @@
+.ratings {
+    position: absolute;
+    left: 0;
+    top: 191px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
